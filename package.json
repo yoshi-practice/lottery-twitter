@@ -1,0 +1,19 @@
+{
+  "name": "lottery-twitter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "node ./node_modules/cz-customizable/standalone.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "cz-customizable": "^6.2.0"
+  }
+}
