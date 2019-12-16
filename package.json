@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "twitter": "^1.7.1"
+    "twit": "^2.2.11"
   },
   "devDependencies": {
     "@babel/core": "7.5.4",
