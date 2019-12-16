@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node src/app.js",
+    "nodemon": "nodemon --exec babel-node src/app.js",
+    "build": "babel src --out-dir dist",
+    "boot": "node dist/app.js",
     "commit": "node ./node_modules/cz-customizable/standalone.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +18,12 @@
     "twitter": "^1.7.1"
   },
   "devDependencies": {
+    "@babel/core": "7.5.4",
+    "@babel/node": "7.5.0",
+    "@babel/preset-env": "7.5.4",
+    "nodemon": "^1.19.4",
+    "@babel/cli": "7.5.0",
+    "@babel/register": "7.4.4",
     "cz-customizable": "^6.2.0"
   }
 }
